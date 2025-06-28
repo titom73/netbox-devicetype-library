@@ -1,0 +1,32 @@
+---
+manufacturer: Ubiquiti
+model: UniFi Cloud Gateway Fiber
+slug: ubiquiti-unifi-cloud-gateway-fiber
+part_number: UXG-Cloud-Fiber
+comments: '[UniFi Cloud Gateway Fiber](https://eu.store.ui.com/eu/en/category/all-cloud-gateways/collections/cloud-gateway-fiber/products/ucg-fiber)'
+u_height: 0
+airflow: passive
+is_full_depth: false
+weight: 520
+weight_unit: g
+interfaces:
+  - name: Lan 1
+    type: 2.5gbase-t
+  - name: Lan 2
+    type: 2.5gbase-t
+  - name: Lan 3
+    type: 2.5gbase-t
+  - name: Lan 4
+    type: 2.5gbase-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Lan 5 / WAN 1
+    type: 10gbase-t
+  - name: Lan 6
+    type: 10gbase-x-sfpp
+  - name: Lan 7 / WAN 2
+    type: 10gbase-x-sfpp
+power-ports:
+  - name: Supply
+    type: other
+    maximum_draw: 54
